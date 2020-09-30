@@ -19,8 +19,8 @@ function removeFirstElement() {
     posts.shift();
 }
 
-function reName() {
-    posts[2].title.replace('three', 'four');
+function ModifyElement() {
+    posts[2].title = posts[2].title.replace('three', 'four');
 }
 
 function createPosts(post, callback_1, callback_2, callback_3) {
